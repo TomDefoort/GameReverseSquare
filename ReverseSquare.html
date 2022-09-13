@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="author" content="Tom Defoort/Thomas Vionnet/Antoine Dailliet"/> 
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title> Reverse Square </title>
+		<link href="CSS/ascii.css" type="text/css" rel="stylesheet" media="screen">
+		<SCRIPT  type="text/javascript" SRC="Javascript/ReverseSquare.js"> </SCRIPT>
+		<link rel="shortcut icon" type="image/x-icon" href="/Images/0.jpg" />
+		<link href="CSS/Reverse Square.css" type="text/css" rel="stylesheet" media="screen">
+	</head>
+	
+	<body>
+		<tr>
+			<div id="banniere"></div>
+			<link href="CSS/Reverse Square.css" type="text/css" rel="stylesheet" media="all">
+		</tr>
+		 <div id="boutons" style="text-align: center;padding:10px;">
+			<input type="button" id="Jouer" value="Jouer">
+
+			<div> </center>
+
+	<center> 
+	<table id="tableau" style="text-align: left; width: 20px;" border="1" cellpadding="2" cellspacing="2">
+
+		<tr>
+
+			<td id="regle" > 
+				<font face = Rockwell>
+					<p>Règles : </p>
+					<p> Le but du jeu est simple : représenter la forme à droite dans la grille de gauche.</p>
+					<p>Commencez par cliquer sur « Générer une grille » </p>
+					<p>Puis à l’aide des boutons situés autour de la grille de gauche, faites varier la couleur des ronds de blanc à rouge.</p> 
+					<p>Mais attention, cliquer sur un bouton modifie tous les ronds situés sur la ligne, la colonne ou la diagonale dans laquelle il se trouve.</p>
+				</font>
+			 </td>
+
+			<td>
+				<table style="text-align: left; width: 20px;" border="1" cellpadding="25" cellspacing="25">
+
+					<tbody>
+
+						<tr>
+
+						  <td class="tdbouton"><input type="button" id="D1" class="bouton" value="D1"></td>
+
+						  <td class="tdbouton"><input type="button" id="C1" class="bouton" value="C1"></td>
+
+						  <td class="tdbouton"><input type="button" id="C2" class="bouton" value="C2"></td>
+
+						  <td class="tdbouton"><input type="button" id="C3" class="bouton" value="C3"></td>
+
+						  <td class="tdbouton"><input type="button" id="D2" class="bouton" value="D2"></td>
+
+						</tr>
+
+						<tr>
+
+							<td class="tdbouton"><input type="button" id="L1" class="bouton" value="L1"></td>
+
+							<td colspan="3" rowspan="3" id="celluleCentrale" ><center> 		
+								<div id="Lancer">
+									<table id="grille">
+									</table>
+								</div> </center>
+							</td>
+
+						  <td class="tdbouton"><input type="button" id="L1b" class="bouton" value="L1"></td>
+
+						</tr>
+
+						<tr>
+
+							<td class="tdbouton"><input type="button" id="L2" class="bouton" value="L2"></td>
+
+							<td class="tdbouton"><input type="button" id="L2b" class="bouton" value="L2"></td>
+
+					   </tr>
+
+						<tr>
+
+						  <td class="tdbouton"><input type="button" id="L3" class="bouton" value="L3"></td>
+
+						  <td class="tdbouton"><input type="button" id="L3b" class="bouton" value="L3"></td>
+
+						</tr>
+
+						<tr>
+
+						  <td class="tdbouton"><input type="button" id="D2b" class="bouton" value="D2"></td>
+
+						  <td class="tdbouton"><input type="button" id="C1b" class="bouton" value="C1"></td>
+
+						  <td class="tdbouton"><input type="button" id="C2b" class="bouton" value="C2"></td>
+
+						  <td class="tdbouton"><input type="button" id="C3b" class="bouton" value="C3"></td>
+
+						  <td class="tdbouton"><input type="button" id="D1b" class="bouton" value="D1"></td>
+
+						</tr>
+
+					</tbody>
+				</table>
+			</td>
+
+			<td>
+				<table style="text-align: left; width: 20px;" >
+				<tr>
+					<td colspan="3" rowspan="3" ><center> 
+						<div id="Lancer">
+							<table id="grille2">
+							</table>
+						
+							<div id="soluTab"></div>
+						</div> </center>
+					</td>
+				</tr>
+
+				<tr>
+
+
+
+				</tr>
+				</table>
+			</td>
+
+	</table>
+
+	</center>
+
+	<p></p>
+		<center><input type="button" id="Générer"  value="Générer une grille"> 
+		<input type="button" id="Réinitialiser"  value="Réinitialiser">
+		<input type="button" id="Solution" value="Solution"> </center>
+
+	</body>
+
+</html>

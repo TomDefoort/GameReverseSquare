@@ -1,0 +1,59 @@
+body{
+	background-image: url(back2.jpg);
+	}
+#reverse{
+	color :white ;
+	border :1px solid white ;
+	background-color :black ;
+	}
+#tableau{
+	background-color :black ;
+	}
+#Jouer{
+	color :white ;
+	border :1px solid white ;
+	border-radius :6px ;
+	background-color :black ;
+	}
+#Générer{
+	color :white ;
+	border :1px solid white ;
+	border-radius :6px ;
+	background-color :black ;
+	}
+#Réinitialiser{
+	color :white ;
+	border :1px solid white ;
+	border-radius :6px ;
+	background-color :black ;
+	}
+#Solution{
+	color :white ;
+	border :1px solid white ;
+	border-radius :6px ;
+	background-color :black ;
+	}
+#regle p{
+	width: 300px;
+	color :white ;
+	text-align: center;
+	}
+.bouton{
+	font :Rockwell;
+	color :white ;
+	background-color :blue ;
+	border-radius :15px ;
+	}
+#soluTab{
+	color : white;
+	width: 300px;
+}
+.tdbouton{
+	border: none;
+}
+#banniere {
+	margin : auto;
+	height: 100px;
+	width : 1485px;
+	background-image: url(head2b.JPG);
+}
